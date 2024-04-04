@@ -127,3 +127,13 @@ body {
   font-family: "poppins", sans-serif;
   font-weight: 600;
 }
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    width: 90%;
+    padding: 20px;
+  }
+  .wrapper input {
+    width: 100%;
+  }
+}

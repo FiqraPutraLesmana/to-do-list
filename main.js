@@ -46,7 +46,7 @@ function emptyList() {
   while (toDoItems.length > 0) {
     toDoItems.item(0).remove();
   }
-  alert("Semua List Dihapus");
+  // alert("Semua List Dihapus");
 }
 
 var myArray = [];
@@ -76,7 +76,7 @@ function saveList() {
   localStorage.setItem("toDos", JSON.stringify(toDos));
   console.log("come in here");
 
-  alert("List Disimpan");
+  // alert("List Disimpan");
 }
 
 function loadList() {
